@@ -1,6 +1,6 @@
 export default () => {
   const obj = {
-    name: 'John'
+    name: 'John',
   };
 
   return (
