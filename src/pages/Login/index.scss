@@ -1,0 +1,42 @@
+@import '../../sharedStyles/variables.scss';
+
+.login {
+  &-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__hero,
+  &__form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+      font-size: 50px;
+      cursor: pointer;
+    }
+  }
+
+  &__hero {
+    width: 60vw;
+    background-color: $darkest-blue;
+
+    & h1 {
+      color: $light-blue;
+    }
+  }
+
+  &__form {
+    width: 40vw;
+    background-color: $light-blue;
+
+    & h1 {
+      color: $darkest-blue;
+    }
+  }
+}
