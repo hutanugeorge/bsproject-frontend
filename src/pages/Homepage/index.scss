@@ -1,13 +1,12 @@
 @import '../../sharedStyles/variables.scss';
 
 .homepage {
-
   &__title-section {
     width: 100vw;
     min-height: 100vh;
     height: fit-content;
     background-image: linear-gradient(to bottom, black 1%, transparent 75%, black),
-    url(public/hero-photo.jpeg);
+      url(public/hero-photo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

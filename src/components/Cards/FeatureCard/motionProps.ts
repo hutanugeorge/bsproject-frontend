@@ -3,6 +3,6 @@ export const card = {
     scale: 1.05,
   },
   whileTap: {
-    scale: .95
-  }
-}
+    scale: 0.95,
+  },
+};

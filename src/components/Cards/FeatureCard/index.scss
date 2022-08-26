@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(gray, .06);
+  background-color: rgba(gray, 0.06);
   cursor: pointer;
 
   &:hover {
@@ -26,27 +26,23 @@
 
     &-mans-haircut {
       background-image: linear-gradient(to bottom, transparent 20%, rgb(8, 8, 8) 90%),
-      linear-gradient(to bottom, rgba(black, .2), rgba(black, .2)),
-      url("public/mans-haircut.jpg");
-
+        linear-gradient(to bottom, rgba(black, 0.2), rgba(black, 0.2)),
+        url('public/mans-haircut.jpg');
     }
 
     &-wash {
       background-image: linear-gradient(to bottom, transparent 20%, rgb(8, 8, 8) 90%),
-      linear-gradient(to bottom, rgba(black, .2), rgba(black, .2)),
-      url("public/wash.jpg");
+        linear-gradient(to bottom, rgba(black, 0.2), rgba(black, 0.2)), url('public/wash.jpg');
     }
 
     &-treatment {
       background-image: linear-gradient(to bottom, transparent 20%, rgb(8, 8, 8) 90%),
-      linear-gradient(to bottom, rgba(black, .4), rgba(black, .4)),
-      url("public/treatment.jpg");
+        linear-gradient(to bottom, rgba(black, 0.4), rgba(black, 0.4)), url('public/treatment.jpg');
     }
 
     &-beard-trim {
       background-image: linear-gradient(to bottom, transparent 20%, rgb(8, 8, 8) 90%),
-      linear-gradient(to bottom, rgba(black, .4), rgba(black, .4)),
-      url("public/beard-trim.jpg");
+        linear-gradient(to bottom, rgba(black, 0.4), rgba(black, 0.4)), url('public/beard-trim.jpg');
     }
   }
 
@@ -64,7 +60,7 @@
 
     &__text {
       font-size: 1.6rem;
-      color: rgba($light-blue, .7);
+      color: rgba($light-blue, 0.7);
     }
   }
 }

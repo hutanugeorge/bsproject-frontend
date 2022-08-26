@@ -6,9 +6,9 @@
   "scripts": {
     "build:css": "node-sass src/ -o src/ ",
     "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r",
-    "start": "npm-run-all -p watch:css start:js",
+    "start:dev": "npm-run-all -p watch:css start:js",
     "build": "npm-run-all build:*",
-    "start:js": "vite",
+    "start": "vite",
     "build:js": "tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json,html}' --config .prettierrc",

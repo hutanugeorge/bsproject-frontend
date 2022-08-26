@@ -1,0 +1,36 @@
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__hero,
+.login__form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__hero h1,
+.login__form h1 {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.login__hero {
+  width: 60vw;
+  background-color: #11121a;
+}
+.login__hero h1 {
+  color: #c3c5d4;
+}
+
+.login__form {
+  width: 40vw;
+  background-color: #c3c5d4;
+}
+.login__form h1 {
+  color: #11121a;
+}
